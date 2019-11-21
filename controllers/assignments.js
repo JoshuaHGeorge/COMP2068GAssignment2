@@ -47,7 +47,7 @@ router.get('/edit', loggedIn, (req, res) => {
     res.render('assignments/edit')
 })
 
-/* POST orders/add form submission */
+// make a new assignment
 router.post('/add', loggedIn, (req, res) => {
     // add a new assignment to the database
     Assignment.create({
@@ -55,14 +55,12 @@ router.post('/add', loggedIn, (req, res) => {
         work: req.body.work,
         link: req.body.link,
         due: req.body.due
-    }, (err, order) => {
+    }, (err, assignment) => {
         if (err) {
             console.log(err)
             res.end(err)
         }
-        else {
             res.redirect('/assignments')
-        }
     })
 })
 

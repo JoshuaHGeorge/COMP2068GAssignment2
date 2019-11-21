@@ -1,7 +1,7 @@
 // require the mongoose
 const mongoose = require('mongoose');
 
-const orderSchema = new mongoose.Schema( {
+const assignmentSchema = new mongoose.Schema( {
     course: {
         type: String,
         required: 'Name is Required'
@@ -19,4 +19,4 @@ const orderSchema = new mongoose.Schema( {
 })
 
 // make the data model pubic
-module.exports = mongoose.model('Order', orderSchema);
+module.exports = mongoose.model('Assignment', assignmentSchema);
