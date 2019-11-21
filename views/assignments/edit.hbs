@@ -1,0 +1,108 @@
+<h1>Add a new Assignment</h1>
+
+<form method="post">
+    <fieldset>
+        <label class="form-label">Course </label>
+        <select name="course" id="course">
+            <option>Calculus</option>
+            <option>ASP</option>
+            <option>C++</option>
+            <option>Mainframe</option>
+            <option>JAVA</option>
+            <option>Javascript</option>
+            <script>
+                //grab the select we are in
+                const here = document.getElementById("work")
+                // manually make the options to put inside the select
+                var option1 = document.createElement('option')
+                var option2 = document.createElement('option')
+                var option3 = document.createElement('option')
+                var option4 = document.createElement('option')
+                var option5 = document.createElement('option')
+                var option6 = document.createElement('option')
+                //give the options their values
+                option1.innerHTML = "Calculus"
+                option2.innerHTML = "ASP"
+                option3.innerHTML = "C++"
+                option4.innerHTML = "Mainframe"
+                option5.innerHTML = "JAVA"
+                option6.innerHTML = "Javascript"
+                here.append(option1)
+                here.append(option2)
+                here.append(option3)
+                here.append(option4)
+                here.append(option5)
+                here.append(option6)
+                if({{assignment.work}} == "Calculus"){
+                    option1.selected = true;
+                }
+                if({{assignment.work}} == "ASP"){
+                    option2.selected = true;
+                }
+                if({{assignment.work}} == "C++"){
+                    option3.selected = true;
+                }
+                if({{assignment.work}} == "Mainframe"){
+                    option4.selected = true;
+                }
+                if({{assignment.work}} == "JAVA"){
+                    option5.selected = true;
+                }
+                if({{assignment.work}} == "Javascript"){
+                    option6.selected = true;
+                }
+            </script>
+        </select>
+    </fieldset>
+    <fieldset>
+        <label class="form-label">Course </label>
+        <select name="work" id="work">
+            <script>
+                //grab the select we are in
+                const here = document.getElementById("work")
+                // manually make the options to put inside the select
+                var option1 = document.createElement('option')
+                var option2 = document.createElement('option')
+                var option3 = document.createElement('option')
+                var option4 = document.createElement('option')
+                var option5 = document.createElement('option')
+                //give the options their values
+                option1.innerHTML = "Project"
+                option2.innerHTML = "Lab"
+                option3.innerHTML = "Quiz"
+                option4.innerHTML = "Midterm"
+                option5.innerHTML = "Exam"
+                here.append(option1)
+                here.append(option2)
+                here.append(option3)
+                here.append(option4)
+                here.append(option5)
+                if({{assignment.work}} == "Project"){
+                    option1.selected = true;
+                }
+                if({{assignment.work}} == "Lab"){
+                    option2.selected = true;
+                }
+                if({{assignment.work}} == "Quiz"){
+                    option3.selected = true;
+                }
+                if({{assignment.work}} == "Midterm"){
+                    option4.selected = true;
+                }
+                if({{assignment.work}} == "Exam"){
+                    option5.selected = true;
+                }
+            </script>
+        </select>
+    </fieldset>
+    <fieldset>
+        <label class="form-label">Link </label>
+        <input type="url" name="link" id="link" value="{{assignment.link}}"/>
+    </fieldset>
+    <fieldset>
+        <label class="form-label">Due Date </label>
+        <input type="datetime-local" name="due" id="due" value="{{assignment.due}}">
+    </fieldset>
+
+    <input type="submit" class="submit-button">Lets Get to Work</input>
+</form>

@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9226f5c-5a9b-4e00-bbb3-c622bfd0a83e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/javascripts/scripts.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/assignments/edit.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/globals.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/globals.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/upcoming.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/assignments.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/upcoming.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/assignment.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/layout.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/layout.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/upcoming/add.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/assignments/add.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/upcoming/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/assignments/index.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/assignments.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/assignments.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controllers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/assignments/add.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/assignments/add.hbs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.hbs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -67,7 +67,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574298820651</updated>
-      <workItem from="1574298827621" duration="10530000" />
+      <workItem from="1574298827621" duration="13298000" />
     </task>
     <servers />
   </component>
