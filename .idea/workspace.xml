@@ -2,14 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f9226f5c-5a9b-4e00-bbb3-c622bfd0a83e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/public/javascripts/scripts.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/assignments/edit.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/login.hbs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/register.hbs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/globals.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/globals.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/controllers/assignments.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/assignments.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controllers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/controllers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/assignments/add.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/assignments/add.hbs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/index.hbs" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.hbs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -33,15 +31,15 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.16.3" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/stylesheets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/views" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\OuO\node\COMP2068GAssignment2\views" />
       <recent name="C:\Users\OuO\node\COMP2068GAssignment2\public\stylesheets" />
       <recent name="C:\Users\OuO\node\COMP2068GAssignment2\public\javascripts" />
-      <recent name="C:\Users\OuO\node\COMP2068GAssignment2\views" />
       <recent name="C:\Users\OuO\node\COMP2068GAssignment2" />
     </key>
   </component>
@@ -67,7 +65,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574298820651</updated>
-      <workItem from="1574298827621" duration="13298000" />
+      <workItem from="1574298827621" duration="15844000" />
     </task>
     <servers />
   </component>

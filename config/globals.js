@@ -5,7 +5,7 @@ module.exports = {
         'google': {
             clientID: '147358985971-8tt4c34g01liq5j64jno421no1v2398l.apps.googleusercontent.com',
             clientSecret: 'k2T1iwU5lnE59ZlurqmmwOas ',
-            callbackURL: 'http://localhost:3000/google/callback'
+            callbackURL: 'comp2068gassignment2.herokuapp.com/google/callback'
         }
     }
 }
