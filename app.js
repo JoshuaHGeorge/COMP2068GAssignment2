@@ -6,8 +6,27 @@ var logger = require('morgan');
 
 var indexRouter = require('./controllers/index');
 var usersRouter = require('./controllers/users');
+// make sure the controller for upcoming is included
+const tasksRouter = require('./controllers/upcoming')
 
 var app = express();
+
+// mongo db connection code from class
+// db.  try to connect and log a result (success / failure)
+const mongoose = require('mongoose')
+const globals = require('./config/globals')
+
+mongoose.connect('mongodb+srv://Josh:aUFSVzvZAJZ8GQLE@cluster0-b4pbi.mongodb.net/upcoming', {
+  useNewUrlParser: true,
+  useUnifiedTopology: true
+}).then(
+    (res) => {
+      console.log('Connected to MongoDB')
+    }
+).catch(() => {
+  console.log('Connection error')
+})
+
 
 // view engine setup
 app.set('views', path.join(__dirname, 'views'));

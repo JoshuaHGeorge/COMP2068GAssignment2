@@ -1,0 +1,35 @@
+<h1>Add a new Assignment</h1>
+
+<form method="post">
+    <fieldset>
+        <label class="form-label">Course </label>
+        <select name="course" id="course">
+            <option>Calculus</option>
+            <option>ASP</option>
+            <option>C++</option>
+            <option>Mainframe</option>
+            <option>JAVA</option>
+            <option>Javascript</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <label class="form-label">Course </label>
+        <select name="assignment" id="assignment">
+            <option>Project</option>
+            <option>Lab</option>
+            <option>Quiz</option>
+            <option>Midterm</option>
+            <option>Exam</option>
+        </select>
+    </fieldset>
+    <fieldset>
+        <label class="form-label">Link </label>
+        <input type="url" name="link" id="link" />
+    </fieldset>
+    <fieldset>
+        <label class="form-label">Due Date </label>
+        <input type="datetime-local" name="due" id="due">
+    </fieldset>
+
+    <input type="submit" class="submit-button">Lets Get to Work</input>
+</form>
