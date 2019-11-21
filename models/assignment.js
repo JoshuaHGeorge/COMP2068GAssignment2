@@ -6,7 +6,7 @@ const orderSchema = new mongoose.Schema( {
         type: String,
         required: 'Name is Required'
     },
-    assignment: {
+    work: {
         type: String,
         required: 'Name is Required'
     },

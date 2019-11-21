@@ -6,8 +6,8 @@ var logger = require('morgan');
 
 var indexRouter = require('./controllers/index');
 var usersRouter = require('./controllers/users');
-// make sure the controller for upcoming is included
-const tasksRouter = require('./controllers/upcoming')
+// make sure the controller for assignments is included
+const assignmentsRouter = require('./controllers/assignments');
 
 var app = express();
 
@@ -16,15 +16,15 @@ var app = express();
 const mongoose = require('mongoose')
 const globals = require('./config/globals')
 
-mongoose.connect('mongodb+srv://Josh:aUFSVzvZAJZ8GQLE@cluster0-b4pbi.mongodb.net/upcoming', {
+mongoose.connect(globals.db, {
   useNewUrlParser: true,
   useUnifiedTopology: true
 }).then(
     (res) => {
-      console.log('Connected to MongoDB')
+      console.log("I'm in")
     }
 ).catch(() => {
-  console.log('Connection error')
+  console.log('Abort mission')
 })
 
 
@@ -40,6 +40,8 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
+
+//app.use('/assignments', assignmentsRouter);
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
